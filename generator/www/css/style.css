@@ -1,0 +1,116 @@
+html {
+  overflow-y:scroll;
+}
+
+h1 {
+	font-weight: 700
+}
+
+ul > li {
+  margin-bottom: 20px;
+}
+
+#logo {
+	display: block;
+	margin: 20px auto 10px auto;
+	max-width:400px;
+	width: 100%
+}
+
+.MathJax_Display { 
+    text-align: left !important;
+    display: inline !important;
+}
+
+.info {
+  color: #666;
+  padding-top: 5px;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+.shiny-output-error-validation {
+  font-size: 16px;
+  color: #c02f1d;
+}
+
+.shiny-output-error-hidden {
+  visibility: hidden;
+}
+
+.help, .measures, .header {
+  font-size: 16px;
+}
+
+.measures h2, .measures table,
+.help table  {
+  margin-bottom: 20px;
+}
+
+.measures table th, .measures table td,
+.help table th, .help table td{
+  text-align: center;
+  padding: 4px;
+  border: 1px solid #555555;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+div.selectize-dropdown-content > div.optgroup > [data-selectable] {
+	padding-left: 24px;
+}
+
+.dataset-download-btn {
+  width: 100%;
+}
+
+.plot-container {
+	position: relative;
+}
+
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}

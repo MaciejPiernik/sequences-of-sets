@@ -1,0 +1,8 @@
+papers/
+.Rproj.user/
+.Rhistory
+rsconnect/
+.RData
+.Ruserdata
+/rsconnect
+/*.Rproj
